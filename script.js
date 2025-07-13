@@ -1,5 +1,5 @@
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://prokerm.netlify.app";
 
 document.getElementById('form').addEventListener('submit', async (e) => {
   e.preventDefault();
