@@ -1,5 +1,5 @@
 
-const API_URL = "https://api.netlify.com/api/v1/badges/952e3d08-85cb-4390-80dd-4a0c99d820fb/deploy-status";
+const API_URL = "[![Netlify Status](https://api.netlify.com/api/v1/badges/952e3d08-85cb-4390-80dd-4a0c99d820fb/deploy-status)](https://app.netlify.com/projects/prokerm/deploys)";
 
 document.getElementById('form').addEventListener('submit', async (e) => {
   e.preventDefault();
